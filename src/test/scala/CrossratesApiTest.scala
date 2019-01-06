@@ -3,7 +3,7 @@ import com.homerchik.helpers.{Currency, HttpRequester, Parser, Rate}
 import org.scalatest.FunSuite
 
 /**
-  * Created by homerchik on 30.11.16.
+  * Created by homerchik on 31.11.16.
   */
 class CrossratesApiTest extends FunSuite{
   val response = Parser.parseResponse(
